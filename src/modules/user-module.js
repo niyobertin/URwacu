@@ -2,11 +2,6 @@ import Sequelize from "sequelize";
 import db from "../configulation/config.js";
 //student modele
 const urwacudb = db.define('urwacu', {
-  userId:{
-    type: Sequelize.INTEGER,
-    autoIncrement: true,
-    primaryKey: true
-  },
   firstName:{
     type:Sequelize.STRING,
     allowNull:false
