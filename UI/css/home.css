@@ -3,6 +3,12 @@ body{
     padding: 0;
 }
 #splashPage{
+    background-image:linear-gradient(to bottom, rgb(4, 48, 86), rgba(179, 18, 18, 0));
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:
+      bottom right,
+      left,
+      right;
 background-color: black;
 color: white;
 width: 100%;
@@ -11,7 +17,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: system-ui, -apple-system, 
+BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: 1.5em;
 }
 @keyframes fadeIn {
@@ -27,6 +35,16 @@ font-size: 1.5em;
     border-radius: 50%;
     background-color: rgb(6, 66, 66);
     height: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    opacity: 0;
+    animation: fadeIn 6s ease-in forwards;
+    border:5px solid rgb(33, 120, 125);
+    border-radius: 50%;
+    height: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
