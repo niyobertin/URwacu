@@ -12,7 +12,8 @@
   },
   "scripts": {
     "test": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "name": "urwacu",
   "description": "Urubuga rwacu is messaging app that will help to share ideas for our future development.",
@@ -21,5 +22,6 @@
   "type": "module",
   "keywords": [],
   "author": "Niyonkuru Bertin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
