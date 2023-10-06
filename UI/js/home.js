@@ -6,6 +6,9 @@ function updated() {
     if (upto === 100) {
         clearInterval(counts);
     }
+    if(count == 100){
+        window.location.href = "../signIn.html";
+    }
 }
 
 
