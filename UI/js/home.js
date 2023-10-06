@@ -7,7 +7,7 @@ function updated() {
         clearInterval(counts);
     }
     if(count == 100){
-        window.location.href = "../signIn.html";
+        window.location.href = "../pages/signIn.html";
     }
 }
 
