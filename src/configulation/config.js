@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config()
 const db = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
     host: process.env.HOST,
-    port: 12345,
+    port: 5432,
     dialect: "postgres",
     pool: {
         max: 5,
